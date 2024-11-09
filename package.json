@@ -3,3 +3,9 @@
     "html2pdf.js": "^0.10.2"
   }
 }
+
+{
+  "rewrites": [
+    { "source": "/old-path", "destination": "/new-path" }
+  ]
+}
